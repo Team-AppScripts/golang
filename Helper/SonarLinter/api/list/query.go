@@ -29,9 +29,9 @@ func getPage(url string) []string {
 	return openList
 }
 
-func chooseSonarLint(url string, r *http.Request) map[string]map[string]string {
+func chooseSonarLint(url string) map[string]map[string]string {
 	// choose Request target url.
-	var responseAry []string = getPage(r.URL.Query().Get(url))
+	var responseAry []string = getPage(url)
 	var temp io.Reader = nil
 	responseMaps := make(map[string]map[string]string)
 	tmpMaps := make(map[string]string)
@@ -53,6 +53,11 @@ func chooseSonarLint(url string, r *http.Request) map[string]map[string]string {
 }
 
 func RequestHandler(w http.ResponseWriter, r *http.Request) {
-	var responseAry map[string]map[string]string = chooseSonarLint(r.URL.Query().Get("ref"), r)
+	var responseAry map[string]map[string]string = chooseSonarLint(r.URL.Query().Get("ref"))
 	fmt.Fprint(w, responseAry)
+}
+
+func TestCode(url string) {
+	var responseAry map[string]map[string]string = chooseSonarLint(url)
+	fmt.Println(responseAry)
 }
