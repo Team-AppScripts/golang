@@ -17,20 +17,22 @@ func Request(url string) io.ReadCloser {
 
 	client := new(http.Client)
 	res, _ := client.Do(req)
-	defer res.Body.Close()
 
 	if res.StatusCode != 200 {
 		log.Fatalf("Status code error: %d %s", res.StatusCode, res.Status)
 	} else {
-		fmt.Println(res.Request.Body)
+		fmt.Printf("Status code error: %d %s", res.StatusCode, res.Status)
 	}
+
+	defer res.Body.Close()
 
 	return res.Body
 }
 
-func TestCode(url string) {
+func TestCode(url string) string {
 	var testReader io.Reader = Request(url)
 	buf := new(bytes.Buffer)
 	buf.ReadFrom(testReader)
-	fmt.Print(buf.String())
+	fmt.Printf(buf.String())
+	return buf.String()
 }
