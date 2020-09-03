@@ -43,18 +43,19 @@
     <MESSAGE value="Add Request Helper (modules) _20200903&#10;&#10;ver 1.0&#10;&#10;Create Module!!" />
     <MESSAGE value="Add SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.0&#10;&#10;Create Module!!" />
     <MESSAGE value="Mod SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;Test Mode Service added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Mod SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;Test Mode Service added." />
+    <MESSAGE value="Mod WebRequest Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;リクエストクローズタイミングの修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mod WebRequest Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;リクエストクローズタイミングの修正" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="573" y="93" key="CommitChangelistDialog2" timestamp="1599103832671">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2493" y="93" key="CommitChangelistDialog2" timestamp="1599104455109">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="573" y="93" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103832671" />
-    <state x="2493" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599101397881" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599103835286">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2493" y="93" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599104455109" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599104457697">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103835286" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599101439251" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599104457697" />
   </component>
 </project>
