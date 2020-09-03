@@ -21,6 +21,8 @@ func Request(url string) io.ReadCloser {
 
 	if res.StatusCode != 200 {
 		log.Fatalf("Status code error: %d %s", res.StatusCode, res.Status)
+	} else {
+		fmt.Println(res.Request.Body)
 	}
 
 	return res.Body

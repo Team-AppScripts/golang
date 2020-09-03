@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17474716-92e0-4b0a-a0e8-b369eec4b52d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helper/WebRequest/RequestGet.go" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/WebRequest/RequestGet.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,18 +43,19 @@
     <MESSAGE value="Add SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.0&#10;&#10;Create Module!!" />
     <MESSAGE value="Mod SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;Test Mode Service added." />
     <MESSAGE value="Mod WebRequest Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;リクエストクローズタイミングの修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mod WebRequest Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;リクエストクローズタイミングの修正" />
+    <MESSAGE value="Mod WebRequest Helper (modules) _20200903&#10;&#10;ver 1.2&#10;&#10;テストコードの作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mod WebRequest Helper (modules) _20200903&#10;&#10;ver 1.2&#10;&#10;テストコードの作成" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2493" y="93" key="CommitChangelistDialog2" timestamp="1599104455109">
+    <state x="2493" y="93" key="CommitChangelistDialog2" timestamp="1599105219104">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="573" y="93" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103832671" />
-    <state x="2493" y="93" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599104455109" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599104457697">
+    <state x="2493" y="93" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599105219104" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599105221097">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103835286" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599104457697" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599105221097" />
   </component>
 </project>
