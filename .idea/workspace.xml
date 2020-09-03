@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17474716-92e0-4b0a-a0e8-b369eec4b52d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper/SonarLinter/api/list/query.go" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/SonarLinter/api/list/query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper/WebRequest/RequestGet.go" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/WebRequest/RequestGet.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +42,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Request Helper (modules) _20200903&#10;&#10;ver 1.0&#10;&#10;Create Module!!" />
     <MESSAGE value="Add SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.0&#10;&#10;Create Module!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.0&#10;&#10;Create Module!!" />
+    <MESSAGE value="Mod SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;Test Mode Service added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mod SonarLinter Helper (modules) _20200903&#10;&#10;ver 1.1&#10;&#10;Test Mode Service added." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="573" y="93" key="CommitChangelistDialog2" timestamp="1599103367996">
+    <state x="573" y="93" key="CommitChangelistDialog2" timestamp="1599103832671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="573" y="93" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103367996" />
+    <state x="573" y="93" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103832671" />
     <state x="2493" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599101397881" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599103373941">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599103835286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103373941" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599103835286" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599101439251" />
   </component>
 </project>

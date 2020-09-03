@@ -12,7 +12,9 @@ func Request(url string) io.ReadCloser {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer res.Body.Close()
+	if res != nil {
+		defer res.Body.Close()
+	}
 
 	if res.StatusCode != 200 {
 		log.Fatalf("Status code error: %d %s", res.StatusCode, res.Status)
